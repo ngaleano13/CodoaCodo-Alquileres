@@ -7,11 +7,11 @@ Este proyecto colaborativo esta destinado para la capacitacion de Codo a Codo 4.
 
 |     Nombre     |	  Github     |		Linkedin       |
 |----------------|---------------|-----------------------------|
-|  Nico Galeano	 | ngaleano13    |							   |
+|  Nico Galeano	 | ngaleano13    |							               |
 |  Suarez Cesar  | cesar37z      |                             |
 | Karina Aguilar | Mistyckary    |                             |
 | Ramón Santos   | Mencho0912    |                             |
 
 ## Tecnologias utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap)](https://skillicons.dev)
