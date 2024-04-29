@@ -1,19 +1,39 @@
 #recentVehicle{
     background-color: var(--color-white);
     color: rgb(0, 0, 0);
+    margin-bottom: 3rem;
 }
 
-.ratio-mw{
-    max-width: 900px;
+.title-recent{
+    text-align: center;
+    background-color: var(--color-black);
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
 
 .title-vehicle{
     text-align: center;
-    background-color: bisque;
-    width: 200px;
-    margin: auto;
+    background-color: var(--color-black);
+    color: white;
+    width: 300px;
+    margin: 1.2rem auto 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
 }
 
+.vehicles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratio-mw{
+    min-width: 380px;
+}
 
 /* Slider */
 
@@ -71,8 +91,33 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .ratio-mw{
+        width: 440px;
+    }
+}
+
 
 @media screen and (min-width: 992px){
+
+    .title-recent{
+        font-size: 2rem;
+        width: 900px;
+        margin: 2rem auto;
+        border-radius: 10px;
+    }
+
+    .title-vehicle{
+        width: 400px;
+        margin: 1.8rem auto 0.8rem;
+        padding: 1.3rem;
+        border-radius: 10px;
+        font-size: 1.4rem;
+    }
+
+    .ratio-mw{
+        width: 480px;
+    }
 
     .logos-slide img {
         height: 80px;
