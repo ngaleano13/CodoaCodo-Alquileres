@@ -1,9 +1,0 @@
-#recentVehicle{
-    background-color: var(--color-white);
-    height: 100vh;
-    color: rgb(0, 0, 0);
-}
-
-.ratio-mw{
-    max-width: 900px;
-}
