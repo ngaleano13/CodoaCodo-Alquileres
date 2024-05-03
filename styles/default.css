@@ -2,6 +2,7 @@
 
 
 @import url('nav.css');
+@import url('index.css');
 @import url('news.css');
 @import url('contact.css');
 
@@ -118,6 +119,17 @@ body {
 .logos-slide img {
     height: 50px;
     margin: 0 40px;
+}
+
+
+/* Footer */
+
+#footer{
+    background-color: var(--color-black);
+}
+
+.footer-pages:hover , .socials:hover{
+    color: var(--color-grey);
 }
 
 
