@@ -1,0 +1,34 @@
+.map > iframe{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
+ 
+
+.img-ico{
+    width: 30px;
+    height: 30px;
+}
+
+.form-cc{
+    background-color: var(--color-black);
+    border-radius: 10px;
+}
+
+.btn-cc{
+    background-color: var(--color-light-grey);
+}
+
+.btn-cc:hover{
+    background-color: var(--color-white);
+    color: black;
+}
+
+.toast-cc{
+    background-color: var(--color-black);
+}
