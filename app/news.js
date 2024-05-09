@@ -1,8 +1,9 @@
+const path = '/assets/Autos/';
+
 document.addEventListener("DOMContentLoaded", function() {
     showCar('car1');
 });
 
-const path = '/assets/Autos/';
 
 function showCar(carId) {
     var carDescriptions = document.getElementsByClassName("car-description");
