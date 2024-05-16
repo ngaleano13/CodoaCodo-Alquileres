@@ -1,14 +1,16 @@
 const toastLiveExample = document.getElementById('liveToast');
 
-function btnClick(ev) {
+function btnSendMail() {
+  
+  let inputName = document.querySelector('#contact-name').value;
+  let inputMail = document.querySelector('#contact-mail').value;
+  let inputSubject = document.querySelector('#contact-subject').value;
+  let inputMessage = document.querySelector('#contact-message').value;
 
-  var name = document.getElementById("name").value.trim();
-  var email = document.getElementById("email").value.trim();
-  var subject = document.getElementById("subject").value.trim();
-  var message = document.getElementById("message").value.trim();
   const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
 
-  if (name !== "" || email !== "" || subject !== "" || message !== "") {
+  if(inputName.value !== "" && inputMail !== "" && inputSubject !== "" && inputMessage !== ""){
     toastBootstrap.show();
+
   }
 }
