@@ -17,62 +17,107 @@
     <!-- Barra de Navegacion -->
 
     <nav class="navbar navbar-expand-lg z-index-sticky cc-bg-black " data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-4" href="index.html">ALQUILERES<i class="fa-solid fa-car ps-3"></i></a><button
-          class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
-          <ul class="navbar-nav gap-3 mt-3 mt-md-0 align-items-center">
-            <li class="nav-item">
-              <a class="nav-link mx-2 cc-text-grey" href="index.html"><i class="fa-solid fa-house pe-2"></i>Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2 cc-text-grey" href="#"><i class="fa-solid fa-star pe-2"></i>Novedades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2 cc-text-grey" href="contact.html"><i
-                  class="fa-solid fa-location-dot pe-2"></i>Contacto</a>
-            </li>
-            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Iniciar sesion
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="index.html">ALQUILERES<i class="fa-solid fa-car ps-3"></i></a><button
+                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-          </ul>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav gap-3 mt-3 mt-md-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 cc-text-grey" href="index.html"><i
+                                class="fa-solid fa-house pe-2"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 cc-text-grey" href="req.html"><i
+                                class="fa-solid fa-circle-exclamation pe-2"></i>Requisitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 cc-text-grey" href="#"><i
+                                class="fa-solid fa-star pe-2"></i>Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 cc-text-grey" href="about.html"><i
+                                class="fa-solid fa-user pe-2"></i>Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 cc-text-grey" href="contact.html"><i
+                                class="fa-solid fa-location-dot pe-2"></i>Contacto</a>
+                    </li>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#login">
+                        Iniciar sesion
+                    </button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                        data-bs-target="#register">
+                        Registrarse
+                    </button>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Modal de logeo -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <!-- Modal de logeo -->
+     <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="emailUser" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailUser">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="loginLabel">Iniciar sesion</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="mb-3">
-                <label for="passwordUser" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="passwordUser">
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                          <label for="loginEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="loginEmail">
+                      </div>
+                      <div class="mb-3">
+                          <label for="current-password" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="current-password">
+                      </div>
+                  </form>
               </div>
-            </form>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-primary">Ingresar</button>
+              </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-          </div>
-        </div>
       </div>
-    </div>
+  </div>
 
+  <!-- Modal de Registro -->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="registerLabel">Iniciar sesion</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                          <label for="registerEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="registerEmail">
+                      </div>
+                      <div class="mb-3">
+                          <label for="registerPassword" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="registerPassword">
+                      </div>
+                      <div class="mb-3">
+                          <label for="registerConfirmPassword" class="form-label">Confirmar contraseña</label>
+                          <input type="password" class="form-control" id="registerConfirmPassword">
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-primary">Ingresar</button>
+              </div>
+          </div>
+      </div>
+  </div>
 
-  </header>
+</header>
 
   <main>
 
