@@ -1,0 +1,7 @@
+.line {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #212121;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
