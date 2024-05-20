@@ -1,7 +1,105 @@
+section.ficha {
+    position: relative;
+    width: 100%;
+    background: #E0E0E0;
+    margin-top: -8px;
+}
+.main_ficha {
+    position: relative;
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    background: #FFF;
+    /* margin-bottom: 120px; */
+}
+.titulo.mediano {
+    font-size: 53px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+}
 .line {
     float: left;
     width: 100%;
     border-top: 1px solid #212121;
     margin-top: 20px;
     margin-bottom: 23px;
+}
+.modelo.mediano {
+    font-size: 34px;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.clear {
+    clear: both;
+}
+.visto_cir {
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(../assets/imgs/visto_cir.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.ClipVistos {
+    padding-left: 25px;
+}
+
+.ClipItem {
+    float: left;
+    width: 100%;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.item_condicion {
+    font-family: 'Univers-CondensedBold', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.line.after {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.titulito {
+    float: left;
+    font-family: 'Univers-CondensedBold', Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    line-height: 37px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-top: 70px;
+}
+.descripcion {
+    float: left;
+    font-family: 'Univers-CondensedLight', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 1px;
+    clear: both;
+}
+p.descripcion {
+    float: left;
+    font-family: 'Univers-CondensedLight', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 1px;
+    clear: both;
 }
