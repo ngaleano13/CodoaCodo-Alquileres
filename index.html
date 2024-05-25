@@ -120,9 +120,125 @@
 
 
   <!-- Ingresar codigo aca abajo -->
+    <div class="title">
+        <h1>Bienvenido a <br><span class="cc-span-color">CAC Rent A Car</span></h1>
+        <a href="#alquiler">Alquila tu vehiculo aca!</a>
+    </div>
 
+    <section class="text-center m-auto p-4" id="alquiler">
+        <div class="title-alquiler">
+            <h1>¿Queres alquilar tu coche este fin de semana? o ¿Tenes algun evento especial?</h1>
+            <h2>Aca vas a poder conseguir el vehiculo que necesitas</h2>
+        </div>
+        <div class="categories">
+            <div class="section-buttons">
+                <button onclick="showCards('category_A')">Categoria A</button>
+                <button onclick="showCards('category_B')">Categoria B</button>
+                <button onclick="showCards('category_C')">Categoria C</button>
+            </div>
+        
+            <div id="category_A" class="cards-container">
+                <div class="card" data-price="28000">
+                    <img src="/assets/Autos/conyx-black.webp" alt="Chevrolet Onix">
+                    <h3>Chevrolet Onix</h3>
+                    <p>Precio por día: $28,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Chevrolet Onix', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+                <div class="card" data-price="30000">
+                    <img src="/assets/Autos/civic.webp" alt="Honda Civic">
+                    <h3>Honda Civic</h3>
+                    <p>Precio por día: $30,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Honda Civic', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+                <div class="card" data-price="31000">
+                    <img src="/assets/Autos/ffiesta.webp" alt="Ford Fiesta">
+                    <h3>Ford Fiesta</h3>
+                    <p>Precio por día: $31,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Ford Fiesta', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+            </div>
+            <div id="category_B" class="cards-container">
+                <div class="card" data-price="35000">
+                    <img src="/assets/Autos/kangoo.webp" alt="Renault Kangoo">
+                    <h3>Renault Kangoo</h3>
+                    <p>Precio por día: $35,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Renault Kangoo', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+                <div class="card" data-price="32000">
+                    <img src="/assets/Autos/partner.webp" alt="Peugeot Partner">
+                    <h3>Peugeot Partner</h3>
+                    <p>Precio por día: $32,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Peugeot Partner', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+            </div>
+            <div id="category_C" class="cards-container">
+                <div class="card" data-price="45000">
+                    <img src="/assets/Autos/cs10-white.webp" alt="Chevrolet S10">
+                    <h3>Chevrolet S10</h3>
+                    <p>Precio por día: $45,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Chevrolet S10', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+                <div class="card" data-price="44000">
+                    <img src="/assets/Autos/thilux-red.webp" alt="Toyota Hilux">
+                    <h3>Toyota Hilux</h3>
+                    <p>Precio por día: $44,000</p>
+                    <input type="date" onchange="calculateTotal(this)">
+                    <input type="date" onchange="calculateTotal(this)">
+                    <p class="total-cost">Costo total: $0</p>
+                    <button type="button" class="btn btn-light cc-btn" data-bs-toggle="modal"
+                    data-bs-target="#ConsultaVehiculo" onclick="generateModal('Toyota Hilux', this.closest('.card').dataset.price, this.closest('.card').dataset.daysDiff)">
+                    Consultar</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Modal -->
 
+        <div class="modal fade" id="ConsultaVehiculo" tabindex="-1" aria-labelledby="contacto" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="contacto">Contacto</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
   <!-- Slider -->
@@ -189,6 +305,7 @@
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/afa60f8fdc.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="/app/index.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@
     --color-grey: #52616B;
     --color-light-grey: #C9D6DF;
     --color-white: #F0F5F9;
+    --color-yellow: #ffcc00;
 }
 
 /* Estilos generales */
@@ -40,7 +41,26 @@ body {
 
 .cc-text-grey{
     color: var(--color-white);
+    font-size: 1rem;
 }
+
+.btn-light{
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 552px){
+    .cc-text-grey{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .cc-text-grey{
+        font-size: 1rem;
+    }
+
+}
+
 
 
 
