@@ -1,15 +1,14 @@
 section.ficha {
+    padding: 3rem;
     position: relative;
     width: 100%;
-    background: #E0E0E0;
-    margin-top: -8px;
 }
+
 .main_ficha {
     position: relative;
     width: 100%;
     max-width: 1120px;
     margin: auto;
-    background: #FFF;
     /* margin-bottom: 120px; */
 }
 .titulo.mediano {
@@ -62,7 +61,7 @@ div {
     unicode-bidi: isolate;
 }
 .item_condicion {
-    font-family: 'Univers-CondensedBold', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.5px;
     font-size: 30px;
     line-height: 36px;
@@ -76,7 +75,7 @@ div {
 }
 .titulito {
     float: left;
-    font-family: 'Univers-CondensedBold', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 39px;
     line-height: 37px;
     letter-spacing: -0.5px;
@@ -85,7 +84,7 @@ div {
 }
 .descripcion {
     float: left;
-    font-family: 'Univers-CondensedLight', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
     text-align: left;
@@ -95,7 +94,7 @@ div {
 }
 p.descripcion {
     float: left;
-    font-family: 'Univers-CondensedLight', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
     text-align: left;

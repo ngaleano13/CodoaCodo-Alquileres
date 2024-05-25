@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alquileres - Requisitos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/default.css">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
 
@@ -45,8 +48,7 @@
                         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#login">
                             Iniciar sesion
                         </button>
-                        <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                            data-bs-target="#register">
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#register">
                             Registrarse
                         </button>
                     </ul>
@@ -54,65 +56,65 @@
             </div>
         </nav>
 
-    <!-- Modal de logeo -->
-    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="loginLabel">Iniciar sesion</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="loginEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="loginEmail">
-                        </div>
-                        <div class="mb-3">
-                            <label for="current-password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="current-password">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
+        <!-- Modal de logeo -->
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="loginLabel">Iniciar sesion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="loginEmail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="current-password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="current-password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Modal de Registro -->
-    <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="registerLabel">Iniciar sesion</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="registerEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="registerEmail">
-                        </div>
-                        <div class="mb-3">
-                            <label for="registerPassword" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="registerPassword">
-                        </div>
-                        <div class="mb-3">
-                            <label for="registerConfirmPassword" class="form-label">Confirmar contraseña</label>
-                            <input type="password" class="form-control" id="registerConfirmPassword">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
+        <!-- Modal de Registro -->
+        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="registerLabel">Iniciar sesion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="registerEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="registerEmail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="registerPassword">
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerConfirmPassword" class="form-label">Confirmar contraseña</label>
+                                <input type="password" class="form-control" id="registerConfirmPassword">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </header>
 
@@ -120,7 +122,7 @@
 
 
         <!-- Ingresar codigo aca abajo -->
-        <div id="contenedor">
+        <div id="container">
             <section class="ficha">
                 <div class="main_ficha">
                     <div class="main_ficha_int">
@@ -128,87 +130,119 @@
                         <div class="line"></div>
                         <p class="modelo mediano">Para alquilar un vehículo Ud. precisa:</p>
                         <div class="clear"></div>
-                        
+
                         <div class="ClipVistos">
                             <div class="ClipItem">
                                 <div class="visto_cir"></div>
                                 <div class="item_condicion">Ser mayor de 21 años</div>
                             </div>
-        
+
                             <div class="ClipItem">
                                 <div class="visto_cir"></div>
                                 <div class="item_condicion">Poseer licencia de conducir con dos años de antigüedad</div>
                             </div>
-                            
-                            <div class="ClipItem">	
+
+                            <div class="ClipItem">
                                 <div class="visto_cir"></div>
                                 <div class="item_condicion">Contar con una tarjeta de crédito al día</div>
                             </div>
                         </div>
                         <div class="line after"></div>
-        
+
                         <p class="titulito">Reservas</p>
-                        <p class="descripcion">Usted puede hacer su reserva a través de nuestros teléfonos: Tel (011) 9999 9999 o al Celular/WhatsApp +54 9 11 9999 9999. Cac Rent a Car garantiza la reserva por un período de hasta 1 (una) hora después del horario previsto para el retiro de la unidad. Para los autos retirados en los aeropuertos, si informa su número de vuelo, en caso de demoras, CaC Rent a Car garantiza la entrega del auto hasta el momento de la llegada del vuelo, siempre dentro del horario de funcionamiento de la agencia.</p>
-        
+                        <p class="descripcion">Usted puede hacer su reserva a través de nuestros teléfonos: Tel (011)
+                            9999 9999 o al Celular/WhatsApp +54 9 11 9999 9999. Cac Rent a Car garantiza la reserva por
+                            un período de hasta 1 (una) hora después del horario previsto para el retiro de la unidad.
+                            Para los autos retirados en los aeropuertos, si informa su número de vuelo, en caso de
+                            demoras, CaC Rent a Car garantiza la entrega del auto hasta el momento de la llegada del
+                            vuelo, siempre dentro del horario de funcionamiento de la agencia.</p>
+
                         <p class="titulito">Recarga de combustible</p>
-                        <p class="descripcion">Para su comodidad, CaC Rent a Car le entrega el auto con el depósito de combustible completo y Usted puede devolverlo como desee. En el caso de que sea necesario el re abastecimiento por parte de la agencia, la cobranza del combustible será realizada de acuerdo a la tabla vigente de CaC Rent a Car, con base en la lectura del marcador de combustible (en octavos). Por tratarse de una lectura de valores aproximados, la cobranza del combustible podrá sufrir variaciones de hasta un 30% en relación a los valores cobrados por una estación de servicio.</p>
-        
+                        <p class="descripcion">Para su comodidad, CaC Rent a Car le entrega el auto con el depósito de
+                            combustible completo y Usted puede devolverlo como desee. En el caso de que sea necesario el
+                            re abastecimiento por parte de la agencia, la cobranza del combustible será realizada de
+                            acuerdo a la tabla vigente de CaC Rent a Car, con base en la lectura del marcador de
+                            combustible (en octavos). Por tratarse de una lectura de valores aproximados, la cobranza
+                            del combustible podrá sufrir variaciones de hasta un 30% en relación a los valores cobrados
+                            por una estación de servicio.</p>
+
                         <p class="titulito">Multas de tránsito</p>
-                        <p class="descripcion">Si eventualmente, ocurre una infracción de transito durante el período de alquiler del auto, CaC Rent a Car realizará directamente el pago de la multa e informará el nombre del conductor a los organismos correspondientes. Posteriormente, la multa será cobrada al cliente con un incremento de 10% por gastos administrativos. Para su comodidad, la multa será directamente debitada de la tarjeta de crédito utilizada para el pago/garantía del alquiler del auto, o podrá ser facturada a su empresa.</p>
-        
+                        <p class="descripcion">Si eventualmente, ocurre una infracción de transito durante el período de
+                            alquiler del auto, CaC Rent a Car realizará directamente el pago de la multa e informará el
+                            nombre del conductor a los organismos correspondientes. Posteriormente, la multa será
+                            cobrada al cliente con un incremento de 10% por gastos administrativos. Para su comodidad,
+                            la multa será directamente debitada de la tarjeta de crédito utilizada para el pago/garantía
+                            del alquiler del auto, o podrá ser facturada a su empresa.</p>
+
                         <p class="titulito">Devolución del vehículo</p>
                         <p class="descripcion"><span class="boldcito">En la misma ciudad:<br /></span>
-                        Los autos podrán ser retirados en hoteles, agencias de turismo, aeropuerto, etc., sin costos adicionales dentro de la misma ciudad.</p>
-        
+                            Los autos podrán ser retirados en hoteles, agencias de turismo, aeropuerto, etc., sin costos
+                            adicionales dentro de la misma ciudad.</p>
+
                         <p class="descripcion"><span class="boldcito">En otra ciudad:<br /></span>
-                        La devolución del vehículo en otra localidad implicará abonar un cargo de Drop Off o Tasa de Retorno del vehículo. El costo es de $ x Km.</p>
-        
-                        <p class="descripcion"><span class="boldcito">En fecha u horario distinto al previsto en el contrato de alquiler:<br /></span>
-                        Para entregar el auto en otra fecha u hora que no sea la prevista en el contrato de alquiler, solicite autorización a la agencia de la que retiró el auto, antes del plazo previsto para su devolución. El horario de funcionamiento de las agencias puede variar, por lo que se recomienda que se informe con antelación.<br />
-        <br />
-        Recuerde que la diaria del auto es de 24 horas, con hasta 1 (una) hora de tolerancia para la devolución. A partir de la hora 25 serán cobradas horas extras (1/6 del valor de la diaria para cada hora extra) y una diaria de protección del auto.<br />
-        <br />
-        * Todas las tarifas <b>NO incluyen IVA</b> y pueden ser modificadas sin previo aviso. Los valores y condiciones son parte integrante del contrato.<br />
-        * En caso de hurto, robo, siniestro o colisión, será necesario presentar una constancia emitida por la autoridad correspondiente.<br />
-        * Los descuentos no son acumulativos ni aplicables sobre tarifas especiales y/o promocionales.<br />
-        * El valor de los kilómetros excedentes en las Promociones es similar al correspondiente al tarifario. Los kilómetros están limitados por las diarias abonadas.<br />
-        * En caso de que el vehículo sea entregado y/o devuelto en un lugar distinto a la agencia de origen, el cliente deberá abonar el cargo de Drop Off.<br />
-        * En caso de que el vehículo tuviera un desperfecto mecánico, comuníquese a nuestra Central de Reservas:
-                        <span class="boldcito airecito">Tel (011) 9999 9999 o al Celular/WhatsApp +54 9 11 9999 9999</span></p>
-                        
+                            La devolución del vehículo en otra localidad implicará abonar un cargo de Drop Off o Tasa de
+                            Retorno del vehículo. El costo es de $ x Km.</p>
+
+                        <p class="descripcion"><span class="boldcito">En fecha u horario distinto al previsto en el
+                                contrato de alquiler:<br /></span>
+                            Para entregar el auto en otra fecha u hora que no sea la prevista en el contrato de
+                            alquiler, solicite autorización a la agencia de la que retiró el auto, antes del plazo
+                            previsto para su devolución. El horario de funcionamiento de las agencias puede variar, por
+                            lo que se recomienda que se informe con antelación.<br />
+                            <br />
+                            Recuerde que la diaria del auto es de 24 horas, con hasta 1 (una) hora de tolerancia para la
+                            devolución. A partir de la hora 25 serán cobradas horas extras (1/6 del valor de la diaria
+                            para cada hora extra) y una diaria de protección del auto.<br />
+                            <br />
+                            * Todas las tarifas <b>NO incluyen IVA</b> y pueden ser modificadas sin previo aviso. Los
+                            valores y condiciones son parte integrante del contrato.<br />
+                            * En caso de hurto, robo, siniestro o colisión, será necesario presentar una constancia
+                            emitida por la autoridad correspondiente.<br />
+                            * Los descuentos no son acumulativos ni aplicables sobre tarifas especiales y/o
+                            promocionales.<br />
+                            * El valor de los kilómetros excedentes en las Promociones es similar al correspondiente al
+                            tarifario. Los kilómetros están limitados por las diarias abonadas.<br />
+                            * En caso de que el vehículo sea entregado y/o devuelto en un lugar distinto a la agencia de
+                            origen, el cliente deberá abonar el cargo de Drop Off.<br />
+                            * En caso de que el vehículo tuviera un desperfecto mecánico, comuníquese a nuestra Central
+                            de Reservas:
+                            <span class="boldcito airecito">Tel (011) 9999 9999 o al Celular/WhatsApp +54 9 11 9999
+                                9999</span>
+                        </p>
+
                         <div class="clear"></div>
                     </div>
                 </div>
             </section>
-        
+
             <div class="linea_gris"></div>
 
 
 
 
-        <!-- Slider -->
-        <div class="logos">
-            <div class="logos-slide">
-                <img src="assets/Logos/chevrolet.webp" alt="">
-                <img src="assets/Logos/ford.webp" alt="">
-                <img src="assets/Logos/honda.webp" alt="">
-                <img src="assets/Logos/peugeot.webp" alt="">
-                <img src="assets/Logos/renault.webp" alt="">
-                <img src="assets/Logos/toyota.webp" alt="">
-                <img src="assets/Logos/fiat.webp" alt="">
-                <img src="assets/Logos/citroen.webp" alt="">
+            <!-- Slider -->
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="assets/Logos/chevrolet.webp" alt="">
+                    <img src="assets/Logos/ford.webp" alt="">
+                    <img src="assets/Logos/honda.webp" alt="">
+                    <img src="assets/Logos/peugeot.webp" alt="">
+                    <img src="assets/Logos/renault.webp" alt="">
+                    <img src="assets/Logos/toyota.webp" alt="">
+                    <img src="assets/Logos/fiat.webp" alt="">
+                    <img src="assets/Logos/citroen.webp" alt="">
+                </div>
+                <div class="logos-slide">
+                    <img src="assets/Logos/chevrolet.webp" alt="">
+                    <img src="assets/Logos/ford.webp" alt="">
+                    <img src="assets/Logos/honda.webp" alt="">
+                    <img src="assets/Logos/peugeot.webp" alt="">
+                    <img src="assets/Logos/renault.webp" alt="">
+                    <img src="assets/Logos/toyota.webp" alt="">
+                    <img src="assets/Logos/fiat.webp" alt="">
+                    <img src="assets/Logos/citroen.webp" alt="">
+                </div>
             </div>
-            <div class="logos-slide">
-                <img src="assets/Logos/chevrolet.webp" alt="">
-                <img src="assets/Logos/ford.webp" alt="">
-                <img src="assets/Logos/honda.webp" alt="">
-                <img src="assets/Logos/peugeot.webp" alt="">
-                <img src="assets/Logos/renault.webp" alt="">
-                <img src="assets/Logos/toyota.webp" alt="">
-                <img src="assets/Logos/fiat.webp" alt="">
-                <img src="assets/Logos/citroen.webp" alt="">
-            </div>
-        </div>
     </main>
     <footer id="footer" class="text-light">
         <div class="py-2 m-auto">
@@ -252,4 +286,5 @@
     <script src="https://kit.fontawesome.com/afa60f8fdc.js" crossorigin="anonymous"></script>
     <script src="/app/index.js"></script>
 </body>
+
 </html>
